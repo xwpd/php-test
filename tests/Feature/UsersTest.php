@@ -18,7 +18,7 @@ class UsersTest extends TestCase
         $this->assertDatabaseHas($user->getTable(), ['id1' => $user->id1, 'id2' => $user->id2]);
     }
 
-    public function testFond()
+    public function testExist()
     {
         $user = User::factory()->create();
         /**
