@@ -18,10 +18,22 @@ composer install
 php artisan migrate
 ```
 
+### 重启容器
+退出php命令行
+```bash
+exit
+```
+重启
+```bash
+docker-compose stop
+docker-compose up -d
+```
+
 ### 接口地址
 127.0.0.1:80/api/users
 
 ### 运行测试用例
+进入php命令行，然后运行下面命令
 ```bash
 php artisan test
 ```
