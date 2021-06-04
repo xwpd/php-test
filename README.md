@@ -18,3 +18,10 @@ composer install
 php artisan migrate
 ```
 
+### 接口地址
+127.0.0.1:80/api/users
+
+### 运行测试用例
+```bash
+php artisan test
+```
